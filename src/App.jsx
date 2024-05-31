@@ -1,10 +1,22 @@
-import { GlobalStyles } from './styles/GlobalStyles';
+// import Box from './components/box/Box';
+import Cards from './components/cards/Cards';
+import Card from './components/card/Card';
+
+
+
 
 const App = () => {
 	return (
 		<>
-			<GlobalStyles />
-			<h1>Núcleo de la aplicación</h1>
+			{/* <Box/> */}
+
+			<Cards>
+				<Card
+				
+				
+				
+				/>
+			</Cards>
 		</>
 	);
 };
