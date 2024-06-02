@@ -1,3 +1,12 @@
 .cards {
 	display: flex;
+	flex-direction: column;
+	width: 327px;
+}
+@media screen and (min-width: 768px) {
+	.cards {
+		flex-direction: row;
+		width: 920px;
+		height: 500px;
+	}
 }

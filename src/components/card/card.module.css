@@ -1,8 +1,86 @@
 .card {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	height: 442px;
+	padding: 48px;
 }
 
-.orange {
+:root {
+	--orange: #e28625;
+	--blue: #006971;
+	--green: #004140;
+}
+
+.card.orange {
 	background-color: var(--orange);
+}
+
+.card.blue {
+	background-color: var(--blue);
+}
+
+.card.green {
+	background-color: var(--green);
+}
+
+img {
+	width: 64px;
+	margin-bottom: 35px;
+}
+
+.title {
+	width: 99px;
+	height: 48px;
+	font-size: 40px;
+	color: #ffffffe6;
+	margin-block: 0 25px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 300;
+	margin-block: 0;
+	color: #ffffffc2;
+}
+button {
+	position: relative;
+	width: 146px;
+	border-radius: 25px;
+	background-color: #fff;
+	font-size: inherit;
+	line-height: 48px;
+	text-align: center;
+	margin-top: auto;
+	border: 0;
+	color: var(--color);
+}
+
+button:hover {
+	background-color: transparent;
+	color: white !important;
+	outline: 2px solid white;
+}
+
+.first {
+	border-radius: 8px 8px 0 0;
+}
+.second {
+	border-radius: 0;
+}
+.third {
+	border-radius: 0 0 8px 8px;
+}
+
+@media screen and (min-width: 768px) {
+	.first {
+		border-radius: 8px 0 0 8px;
+	}
+	.second {
+		border-radius: 0;
+	}
+	.third {
+		border-radius: 0 8px 8px 0;
+	}
 }

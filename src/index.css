@@ -3,3 +3,17 @@
 	--blue: #006971;
 	--green: #004140;
 }
+
+body {
+	color: white;
+	font-family: 'Lexend Deca', sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Big shoulders display', sans-serif;
+}
